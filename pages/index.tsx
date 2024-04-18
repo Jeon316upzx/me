@@ -53,8 +53,8 @@ export default function Home() {
 
         <div className="grid grid-cols-1 gap-2 lg:grid-cols-2">
           <div className="col-span-1">
-            <p className="mt-8">
-              Hey there, I'm <b>Ifeanyi Anuebunwa!</b> I'm not just any
+            <p className="mt-8 opacity-75">
+              Hey there, I'm <b className=" opacity-100">Ifeanyi Anuebunwa!</b> I'm not just any
               Full-Stack developer; I'm your go-to Technology Lead with a knack
               for making cool stuff happen in the digital world. Over the past 5
               years, I've been busy crafting awesome software for all sorts of
