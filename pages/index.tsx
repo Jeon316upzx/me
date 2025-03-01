@@ -56,10 +56,10 @@ export default function Home() {
             <p className="mt-8 opacity-75">
               Hey there, I'm <b className=" opacity-100">Ifeanyi Anuebunwa!</b> I'm not just any
               Full-Stack developer; I'm your go-to Technology Lead with a knack
-              for making cool stuff happen in the digital world. Over the past 5
+              for making cool stuff happen in the digital world. Over the past 6+
               years, I've been busy crafting awesome software for all sorts of
               cool industries like Media & Communications, Web3, Real Estate,
-              Fintech, and E-commerce. You name it, I've probably had a hand in
+              Fintech, and E-commerce, AR/VR, Inventory Management. You name it, I've probably had a hand in
               it!
             </p>
           </div>
@@ -70,15 +70,15 @@ export default function Home() {
         </h1>
 
         <div className="grid grid-cols-1 gap-2 lg:grid-cols-2 lg:gap-4">
-          {featuredLinks.map((link) => (
-            <div className="border bg-white border-dashed border-green-300 p-5">
+          {featuredLinks.map((link, i) => (
+            <div className="border bg-white border-dashed border-green-300 p-5" key={i}>
               <div className="card  !max-md:px-2 !max-md:pt-2 !pb-0">
                 <h3 className="font-bold">{link.title}</h3>
                 <p className="text-secondary mt-0 text-sm">
                   {link.description}
                 </p>
                 <div className="pb-2 text-sm">
-                  <Link className="font-medium" href={`https://${link.link}`}>
+                  <Link className="font-medium" href={`${link.link}`}>
                     <span className="whitespace-pre-wrap">{link.link}</span>
                   </Link>
                 </div>

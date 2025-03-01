@@ -27,4 +27,19 @@ export const featuredLinks = [
     featuredImage: false,
     link: "https://www.pearmonie.com/",
   },
+
+  {
+    title: "Pikd",
+    description:
+      "At Pikd, we're redefining how brands, businesses, and communities connect in the real world through interactive, location-based experiences.",
+    featuredImage: false,
+    link: "https://www.pikd.app/",
+  },
+  {
+    title: "Ark",
+    description:
+      "To provide superior commercial storage solutions that empower businesses to grow without limitation.",
+    featuredImage: false,
+    link: "https://www.storeatark.com/",
+  },
 ]
